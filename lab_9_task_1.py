@@ -20,3 +20,4 @@ plt.title('скорость размножения бактерий')
 plt.legend()
  
 plt.savefig('bakteria.png')
+
