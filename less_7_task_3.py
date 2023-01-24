@@ -44,3 +44,8 @@ def animate2(i):
 ani = animation.FuncAnimation(fig, animate2, frames=np.arange(0, 2*np.pi, 0.1), interval=30)  
   
 ani.save('7.32.gif')
+
+
+
+
+plt.scatter(x, y, colors = b, s = area, alpha = 0.5)
