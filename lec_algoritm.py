@@ -24,3 +24,20 @@ plt.title('Радиоактивный распад')
 plt.legend()
  
 plt.savefig('algoritm.png')
+
+def func_1(*args):
+    s = 0
+    for i in args:
+        s = s + i
+    print(s)
+func_1(1, 4, 6, 7, 9, 10)
+
+import matplotlib.pyplot as plt
+plt.plot([3, 4], [40, 1], color='g', label ='luchte')
+plt.xlabel('Coord: x')
+plt.ylabel('Coord: y')
+plt.legend()
+plt.title('Base')
+plt.grid()
+plt.savefig('1.png')
+
